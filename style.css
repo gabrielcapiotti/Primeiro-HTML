@@ -1,0 +1,66 @@
+main, body {
+    background-color: rgba(138, 71, 23, 0.759);
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    }
+
+.dados-pessoais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.objetivos {
+    border: 1px solid rgb(140, 72, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+
+.centro { 
+    text-align: center;
+
+}
+
+.caixa {
+    border: 5px solid rgba(6, 4, 0, 0.902);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.leftbox {
+    border: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.image2 {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    border-radius: 50%;
+    padding: 20px;
+}
